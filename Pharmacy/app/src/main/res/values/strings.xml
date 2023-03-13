@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Pharmacy</string>
+    <string name="product">Panadol</string>
+    <string name="phamercy">Rathna Pharmacy</string>
+    <string name="drugs">Drugs</string>
+    <string name="min">12dp</string>
+    <string name="max">24dp</string>
+    <string name="midum">18dp</string>
+
+    <string name="phamercy_update">Pharmacy Details Update</string>
+    <string name="phamercy_add">Pharmacy</string>
+
+    <string name="add_medicine">Add Medicine</string>
+    <string name="update_medicine">Update Medicine </string>
+
+    <string name="add_cosmatics">Add Cosmatics</string>
+    <string name="update_cosmatics">Update Cosmatics </string>
+
+    <string name="add_first">Add First Aid</string>
+    <string name="update_first">Update First Aid </string>
+
+    <string name="uploard">Upload photos of Pharmacy</string>
+    <string name="pharmacy_name">Pharmacy Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="email">Email</string>
+    <string name="location">Location</string>
+    <string name="description">Description</string>
+    <string name="save">Save</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Signup</string>
+    <string name="forgot">Forgot Password?</string>
+    <string name="name">Name</string>
+    <string name="pharmacyf">Pharmacy</string>
+    <string name="user">Customer</string>
+    <string name="password">Password</string>
+    <string name="powerd">SLIIT</string>
+    <string name="search">Search</string>
+    <string name="logout">Logout</string>
+    <string name="pharAddInfo">Checked your desired Pharmacy</string>
+
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/Theme.MaterialComponents.DayNight"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+
+        android:title="Home" />
+        <item
+            android:id="@+id/add_phar"
+            android:icon="@drawable/medical_services_24"
+            android:title="New Pharmacy" />
+        <item
+            android:id="@+id/noti"
+            android:icon="@drawable/notifications_24"
+            android:title="Notification" />
+
+    </group>
+    <item android:title="Advance">
+        <menu>
+            <item
+                android:id="@+id/setting"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="Setting" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_baseline_login_24"
+                android:title="Logout"
+                android:visible="true" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="6dp"
+    android:theme="@style/Theme.MaterialComponents.Light.Bridge"
+    android:background="#A7D8A9"
+    android:foregroundGravity="clip_vertical|center_horizontal"
+    app:cardElevation="4dp"
+
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <!-- Media -->
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/logo"
+            android:scaleType="centerCrop"
+            android:maxWidth="100dp"
+            android:minWidth="100dp"
+            android:minHeight="100dp"
+            android:maxHeight="100dp"
+            android:contentDescription="des"
+            />
+        <!-- Title, secondary and supporting text -->
+        <LinearLayout
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="9dp">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Mobile"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textColor="?android:attr/textColorSecondary"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/des"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:text="Description"
+                android:textAppearance="?attr/textAppearanceBody2"
+                android:textColor="?android:attr/textColorSecondary"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:padding="11dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/view_button"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="fill_parent"
+            android:layout_height="38dp"
+            android:layout_gravity="right"
+            android:drawableLeft="@drawable/ic_baseline_remove_red_eye_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/update_button"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="fill_parent"
+            android:layout_height="37dp"
+            android:layout_gravity="right"
+            android:drawableLeft="@drawable/ic_baseline_edit_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/delete_button"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_marginTop="0dp"
+            android:drawableLeft="@drawable/ic_baseline_delete_forever_24"
+
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

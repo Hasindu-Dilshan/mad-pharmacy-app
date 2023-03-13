@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/Theme.MaterialComponents.Bridge"
+    tools:context=".Owner">
+
+    <item
+        android:id="@+id/search"
+        android:contentDescription="@string/search"
+        android:icon="@drawable/ic_search_24dp"
+        android:title="@string/search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:theme="@style/MainActionBar" />
+
+    <item
+        android:id="@+id/more"
+        android:contentDescription="User log out"
+        android:icon="@drawable/close"
+        android:title="@string/logout"
+        android:textColor= "@color/colorAccent"
+        app:showAsAction="never"
+        app:theme="@style/MainActionBar" />
+
+
+</menu>
